@@ -32,6 +32,8 @@ Rails.application.configure do
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
+  
+  #開発環境でメールを送るためのホストの設定
 
   config.action_mailer.perform_caching = false
 
